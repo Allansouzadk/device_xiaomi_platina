@@ -17,9 +17,11 @@ TARGET_OTA_ASSERT_DEVICE := platina
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
 
-
 # Hild
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2019-11-01
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
