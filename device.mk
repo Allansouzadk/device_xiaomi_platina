@@ -20,6 +20,9 @@ $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 # Device Path
 DEVICE_PATH := device/xiaomi/platina
 
+# Device properties
+$(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
@@ -34,8 +37,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
 
-# Device properties
-include $(DEVICE_PATH)/device_prop.mk
 
 # Sensors
 PRODUCT_COPY_FILES += \
