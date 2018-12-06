@@ -14,6 +14,10 @@ DEVICE_PATH := device/xiaomi/platina
 # Assert
 TARGET_OTA_ASSERT_DEVICE := platina
 
+# WLAN MAC
+WLAN_MAC_SYMLINK := true
+
+
 # Hild
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
