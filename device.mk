@@ -28,6 +28,13 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+	$(DEVICE_PATH)/configs/keylayout/sdm660-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sdm660-snd-card_Button_Jack.kl
+
+# Ramdisk
+PRODUCT_PACKAGES += \
+	init.device.rc
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
