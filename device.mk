@@ -23,6 +23,10 @@ DEVICE_PATH := device/xiaomi/platina
 # Device properties
 $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
