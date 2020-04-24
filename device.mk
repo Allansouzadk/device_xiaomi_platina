@@ -72,5 +72,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Get non-open-source specific aspects
+# Wifi
+PRODUCT_PACKAGES += \
+    PlatinaWifiOverlay
+
+# Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
