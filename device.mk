@@ -436,5 +436,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    PlatinaWifiOverlay
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
