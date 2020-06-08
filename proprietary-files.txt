@@ -1873,10 +1873,6 @@ vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
 
-# Sensors - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM 
-vendor/lib/sensors.ssc.so|69970f125d076dac8711c1d1687f7faeb7a75bed
-vendor/lib64/sensors.ssc.so|0ec630386e5f51dfe77acd0fc7886f01dcfc2c86
-
 # Thermal
 vendor/etc/thermal-engine-sdm660-camera.conf
 vendor/etc/thermal-engine-sdm660-high.conf
