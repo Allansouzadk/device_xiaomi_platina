@@ -11,6 +11,9 @@ include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 # Device Path
 DEVICE_PATH := device/xiaomi/platina
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wake_gesture"
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := platina
 
