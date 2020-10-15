@@ -14,6 +14,9 @@ DEVICE_PATH := device/xiaomi/platina
 # Assert
 TARGET_OTA_ASSERT_DEVICE := platina
 
+# Hild
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
 TARGET_KERNEL_CONFIG := platina_defconfig
