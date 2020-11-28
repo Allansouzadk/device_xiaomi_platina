@@ -64,4 +64,5 @@
         <value>0</value>
     </array>
     <item name="gps.voltage">0</item>
+    <item name="battery.capacity">3350</item>
 </device>
