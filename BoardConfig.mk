@@ -36,5 +36,9 @@ TARGET_KERNEL_CONFIG := platina_defconfig
 # Platform
 BOARD_VENDOR_PLATFORM := xiaomi-sdm660
 
-# Inherit from the proprietary version
--include vendor/xiaomi/platina/BoardConfigVendor.mk
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# Inherit the proprietary files
+include vendor/xiaomi/platina/BoardConfigVendor.mk
+
