@@ -26,11 +26,19 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 
 # Audio Hardware
 vendor/lib/hw/audio.primary.sdm660.so
+vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
+vendor/lib/libhdmiedid.so
+vendor/lib/libhfp.so
+vendor/lib/libsndmonitor.so
 vendor/lib64/hw/audio.primary.sdm660.so
+vendor/lib64/liba2dpoffload.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
+vendor/lib64/libhdmiedid.so
+vendor/lib64/libhfp.so
+vendor/lib64/libsndmonitor.so
 
 # Camera
 vendor/etc/scve/facereco/gModel.dat
