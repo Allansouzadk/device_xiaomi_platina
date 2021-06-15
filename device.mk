@@ -71,3 +71,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
+
+# Firmware
+$(call inherit-product, vendor/xiaomi-firmware/platina/firmware.mk)
