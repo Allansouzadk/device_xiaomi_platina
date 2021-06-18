@@ -1,0 +1,26 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "PixelExperience-Devices/device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "branch":      "eleven"
+  },
+  {
+    "repository"  : "vendor_xiaomi_platina",    
+    "target_path" : "vendor/xiaomi/platina",
+    "branch"      : "eleven",
+    "remote"      : "pixel-devices-blobs"
+  },
+  {
+    "remote":      "github",
+    "repository" : "LineageOS/android_kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/platina",
+    "branch"     : "lineage-18.1"
+  },
+  {
+    "remote":      "pixel-devices-blobs",
+    "repository" : "vendor_xiaomi-firmware",
+    "target_path": "vendor/xiaomi-firmware",
+    "branch"     : "eleven"
+  }
+]
