@@ -16,8 +16,9 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter jasmine_sprout jason lavender platina twolip wayne whyred,$(TARGET_DEVICE)),)
-
+ifeq ($(TARGET_DEVICE),platina)
+  subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
+  $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 include $(CLEAR_VARS)
 
 WCNSS_INI_SYMLINK := $(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
