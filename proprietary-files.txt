@@ -325,8 +325,8 @@ vendor/lib/libmmcamera_platina_imx363_ofilm.so
 vendor/lib/libmmcamera_platina_imx363_sunny.so
 vendor/lib/libmmcamera_platina_imx576_bl24sa64_ofilm_eeprom.so
 vendor/lib/libmmcamera_platina_imx576_gt24p64ba2_sunny_eeprom.so
-vendor/lib/libmmcamera_platina_imx576_ofilm.so
-vendor/lib/libmmcamera_platina_imx576_sunny.so
+vendor/lib/libmmcamera_platina_imx576_ofilm.so|368be94e367f168840375c3ec8a938b2024b14df
+vendor/lib/libmmcamera_platina_imx576_sunny.so|2777a533a9450fa1a2033093c3fd4cb8857c857b
 vendor/lib/libmmcamera_platina_s5k5e8_ofilm.so
 vendor/lib/libmmcamera_platina_s5k5e8_ofilm_eeprom.so
 vendor/lib/libmmcamera_platina_s5k5e8_sunny.so
